@@ -2,12 +2,6 @@ import { Task } from "./Task";
 import React, { useEffect, useState } from "react";
 
 export const MainContainer = () => {
-  // const todos = [
-  //   { taskText: "Buy milk", id: 0 },
-  //   { taskText: "Walk the dog", id: 1 },
-  //   { taskText: "Do laundry", id: 2 },
-  //   { taskText: "Call mom", id: 3 },
-  // ];
   function renderTodos() {
     return todo.map(({ taskText, id }) => (
       <Task
